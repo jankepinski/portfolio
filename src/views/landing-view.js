@@ -97,7 +97,7 @@ export const LandingView = ({handleScroll}) => {
             justifyContent: "space-between",
           }}
         >
-          <Button sx={buttonStyle} variant="contained">
+          <Button href="https://github.com/jankepinski" sx={buttonStyle} variant="contained">
             See my github
           </Button>
           <Button onClick={handleScroll} sx={buttonStyle} variant="contained">
