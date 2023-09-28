@@ -1,7 +1,7 @@
 import "./App.css";
 import { LandingView } from "./views/landing-view";
 import { TechStackView } from "./views/tech-stack-view";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import LocomotiveScroll from "locomotive-scroll";
 import {
   Box,
