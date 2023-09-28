@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { ReactComponent as MainImage } from "../assets/svg/watering-website.svg";
 import { ReactComponent as CSharpLogo } from "../assets/svg/logos/csharp-plain.svg";
 import { ReactComponent as CSSLogo } from "../assets/svg/logos/css3-plain.svg";
@@ -64,26 +64,6 @@ const paragraphStyle = {
   fontFamily: "'Roboto Mono', monospace",
   fontSize: 20,
   color: "#6F6F6F",
-};
-
-const buttonStyle = {
-  height: "48px",
-  width: "220px",
-  borderRadius: "10000px",
-  paddingX: 3,
-  paddingY: 0,
-  marginX: 0,
-  marginY: 0,
-  fontSize: 16,
-  fontFamily: "'Roboto Mono', monospace",
-  textTransform: "none",
-  fontStyle: "normal",
-  fontWeight: 400,
-  color: "#F5E2FF",
-  backgroundColor: "#9200ff",
-  ":hover": {
-    backgroundColor: "#7500ce",
-  },
 };
 
 export const TechStackView = () => {
