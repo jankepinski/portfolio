@@ -36,3 +36,109 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes techStackDescriptionAnimation {
+  from {
+    transform: translate(100%);
+    opacity: 0
+  }
+  to{
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes techStackLogosAnimation {
+  from {
+    transform: translate(0, 100%);
+    opacity: 0
+  }
+  to{
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes techStackTitleAnimation {
+  from {
+    transform: translate(100%);
+    opacity: 0
+  }
+  to{
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes techStackImageAnimation {
+  from {
+    transform: translate(-100%);
+    opacity: 0
+  }
+  to{
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes mainTextAnimation {
+  from {
+    transform: translate(-100%);
+    opacity: 0
+  }
+  to{
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes mainButtonsAnimation {
+  from {
+    transform: translate(0, 300%);
+    opacity: 0
+  }
+  to{
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes mainImageAnimation {
+  from {
+    transform: translate(100%);
+    opacity: 0
+  }
+  to{
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+
+.animate-tech-stack-description {
+  animation: 1.5s techStackDescriptionAnimation forwards;
+}
+
+.animate-tech-stack-logos {
+  animation: 1s techStackLogosAnimation forwards;
+}
+
+.animate-tech-stack-title {
+  animation: 1s techStackTitleAnimation forwards;
+}
+
+.animate-tech-stack-image {
+  animation: 1.5s techStackImageAnimation forwards;
+}
+
+.animate-main-text {
+  animation: 1.5s mainTextAnimation forwards;
+}
+
+.animate-main-buttons {
+  animation: 1.5s mainButtonsAnimation forwards;
+}
+
+.animate-main-image {
+  animation: 1.5s mainImageAnimation forwards;
+}
